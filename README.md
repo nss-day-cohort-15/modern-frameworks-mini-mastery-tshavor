@@ -3,21 +3,21 @@
 
 ### Requirements
 For this project you need to use Angular to list types of flower arrangements offered by a florist.
-Build an application that has one view, one controller, and a factory. The view needs to list all the data for each product: name, description, and price. Products with matching category types -- holiday, bereavement, and misc -- should be listed together under a category header.  
+Build an application that has one view, one controller, and a factory. The view needs to list all the data for each product: name, description, and price. Products with matching category types -- holiday, bereavement, and misc -- should be listed together under a category header.
 
 ----
-### Setup 
-1. `mkdir -p ~/workspace/quizzes/modern-frameworks/flower-power && cd $_`  
+### Setup
+1. `mkdir -p ~/workspace/quizzes/modern-frameworks/flower-power && cd $_`
 
-2. Clone this repository and cd into the directory it creates.  
+2. Clone this repository and cd into the directory it creates.
 
-3. Install Angular with `npm install angular` (Or use bower. Your choice). Remember to add the script tag for angular to `index.html`.  
+3. Install Angular with `npm install angular` (Or use bower. Your choice). Remember to add the script tag for angular to `index.html`.
 
-4. Remember to also add a `.gitignore` to the project root folder.  
+4. Remember to also add a `.gitignore` to the project root folder.
 
 ---
 ### Instructions
-__The data you will be fetching has already been added to Firebase__. Your instructor will give you the API key and URL to use.  
+__The data you will be fetching has already been added to Firebase__. Your instructor will give you the API key and URL to use.
 
 Fetch your data using an http call that returns a promise. Save the returned data as a property of the `$scope` object and loop through it to display the flower arrangment info to the user.
 
